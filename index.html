@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/index.css">
+    <title>Semitone Difference</title>
+
+</head>
+<body>
+    <h1>Semitone Difference</h1>
+
+    <div class="main">
+        <div class="btnRandom" >  
+            <button id="randomNotes">Get random notes</button>
+            <h2 id="displayNotes"></h2>
+        </div>
+
+        <div class="submitInput">                
+            <input type="number" id="distance" placeholder="Guess distance"></input>
+            <button id="submitBtn">Submit answer</button> 
+            <h2 id="result"></h2> 
+        </div>
+    </br>
+
+
+    <div id="revealAnswer">
+        <button id="revealAllNotes">Reveal Answer</button>
+    </div>
+        <div id="explanation">
+            <h2 id="allNotes" >
+                <span id = "span1"> A </span>
+                <span id = "span2"> A# / Bb </span>
+                <span id = "span3"> B </span>
+                <span id = "span4"> C </span>
+                <span id = "span5"> C# / Db </span>
+                <span id = "span6"> D </span>
+                <span id = "span7"> D# / Eb </span>
+                <span id = "span8"> E </span>
+                <span id = "span9"> F </span>
+                <span id = "span10"> F# / Gb </span>
+                <span id = "span11"> G </span>
+                <span id = "span12"> G# / Ab </span>
+            </h2>
+        </div>
+    </br>
+
+        <div id="answers">
+            <div id="revealDistance">
+                <span > 
+                    <h2>Distance:</h2>
+                    <h2 id="distanceValue"></h2>
+                </span>
+            </div>
+            
+            <div id="streak">
+                <h2>Streak</h2>
+                <h2 id="displayCount">0</h2>
+            </div>
+        </div>
+    
+    <script src="./dist/main.js" type="module"></script>
+</body> 
+ 
+</html>
