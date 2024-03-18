@@ -75,6 +75,7 @@ function revealAnswer() {
     return incorrectAnswer();
   }
 }
+
 function correctAnswer() {
   return (result.innerHTML = "You got it right .Well Done!");
 }
